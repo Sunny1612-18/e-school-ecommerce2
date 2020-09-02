@@ -1,0 +1,262 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-section,
+.banner,
+.school-features,
+.courses,
+.testimonial-section,
+.download-section{
+    margin-bottom: 100px;
+}
+
+.logo {
+    width: 198px;
+    height: 59px;
+}
+
+.nav-section {
+    top: 30px;
+}
+
+.nav-item {
+    padding: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.sign-up-button {
+    position: relative;
+    width: 104px;
+    height: 43px;
+    color: #FFFFFF !important;
+    background: #21B573;
+    border-radius: 33px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.description h5 {
+    color: #FD511A;
+}
+
+.description h1 {
+    font-size: 48px;
+    line-height: 79px;
+    font-weight: 700;
+}
+
+.description h1 span {
+    color: #21B573;
+}
+
+p {
+    color: gray;
+}
+
+.get-started-button {
+    width: 153px;
+    height: 43px;
+    color: #FFFFFF;
+    background-color: #21B573;
+    border-radius: 33px;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 20px;
+}
+.school-features{
+    padding-top: 70px;
+}
+.features {
+    background: #F8FFFB;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.features img {
+    width: 80px;
+    height: 83px;
+}
+
+.features img,
+.features .h4 {
+    margin-bottom: 25px;
+}
+
+.features h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.card,
+.card-footer {
+    border: none;
+}
+
+.courses {
+    text-align: center;
+}
+
+.courses h1 {
+    margin-bottom: 80px;
+}
+
+.card {
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.course-sec-footer h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.course-sec-footer-logo {
+    width: 24px;
+    height: 24px;
+}
+.download-section{
+    background-color: rgb(241, 241, 241);
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+}
+.download-section h3{
+    font-size: 40px;
+    font-weight: 300;
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+.testimonial-section {
+    background-color: rgb(241, 241, 241);
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+.testimonial-section h3{
+    padding: 20px 10px;
+}
+.testimonial-image{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 120px;
+    
+}
+.testimonial-changer span{
+    color: black;
+}
+
+.person-img {
+    width: 120px;
+    height: 120px;
+    margin-left: 100px;
+}
+
+.person-commetn {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin-right: 100px;
+}
+
+footer {
+    background: #282531;
+}
+
+.footer-description a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #fff;
+}
+
+.footer {
+    margin-bottom: 0px !important;
+}
+
+.footer-description {
+    padding-top: 50px;
+}
+
+.footer-description p {
+    color: white;
+}
+
+.footer-description h6 {
+    font-weight: bold;
+}
+
+.copyright-section {
+    padding-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.copyright-section p {
+    font-size: 13px;
+    color: #CDCDCD;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .banner-button{
+        margin-bottom: 100px;
+    }
+    .course-sec-footer h3{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 767px){
+    .description h1{
+        font-size: 30px;
+        line-height: 55px;
+    }
+    .description p{
+        margin-top: 10px;
+    }
+    .banner-button{
+        margin-bottom: 100px;
+    }
+    .school-features{
+        padding-top: 20px;
+    }
+    .banner{
+        margin-top: -60px;
+    }
+    .banner-button{
+        margin-top: 25px;
+    }
+    .course-sec-footer h3{
+        font-size: 12px;
+    }
+    .footer-description{
+        padding-top: 10px;
+    }
+    .footer-description a p{
+        font-size: 12px;
+        line-height: normal;
+    }
+}
+    
